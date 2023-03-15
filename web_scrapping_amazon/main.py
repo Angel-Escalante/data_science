@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 from bs4 import BeautifulSoup
-from web_scrapping_amazon.selenium_init import get_explorer
+from selenium_init import get_explorer
 from selenium.webdriver.common.by import By
 
 elements = {"title": [], "rating": [], "price": []}
